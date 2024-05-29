@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("IMG1.jpg") no-repeat center center fixed;
+  background-size: cover;
+    height:100vh;
+  }
+   .profilecard {
+      background-color: hsla(0, 0%, 100%, 0.5);
+      width: 480px;
+     border-radius: 3%;
+     box-shadow: hsla(0, 0%, 0%, .8) 7px 7px 60px; 
+     weight:400;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+     text-align:center;
+  }
+  img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-top: -30px;
+  }
+  div.content{
+    
+     border-top: 1px solid hsla(0, 0%, 30%, .8);
+     padding: 10% 3%;
+     margin-top: 3%;
+    font-size:1.1em;
+  }
+  .head, .about {
+   margin-bottom: 10%;
+  }
+  .top, .links {
+   width: 90%;
+   margin: 0 auto;
+  }
+  li{display: inline;
+  filter: grayscale(80%);
+  }
